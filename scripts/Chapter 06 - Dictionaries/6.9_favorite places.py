@@ -1,6 +1,6 @@
 favorite_places = {
-    'elliot': 'japan',
-    'jamie': 'spain',
+    'alex': 'japan',
+    'morgan': 'spain',
     'evan': 'italy',
     'lynn': 'france'
 }

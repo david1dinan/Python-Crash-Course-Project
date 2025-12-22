@@ -1,7 +1,7 @@
 dog_1= {
     'name': 'hudson',
     'breed': 'bully mix',
-    'owner': 'elliot conner'
+    'owner': 'riley parker'
 }
 
 dog_2 = {

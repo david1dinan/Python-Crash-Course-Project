@@ -8,5 +8,5 @@
 # Add a second test
 #def test_first_middle_last_name():
 #    """Do names with middle name work?"""
-#   formatted_name = get_formatted_name('elliot', 'conner', 'preston')
- #   assert formatted_name == 'Elliot Preston Conner'
+#   formatted_name = get_formatted_name('alex', 'taylor', 'jordan')
+ #   assert formatted_name == 'Alex Jordan Taylor'

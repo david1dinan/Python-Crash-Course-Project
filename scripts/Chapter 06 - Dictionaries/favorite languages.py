@@ -38,9 +38,9 @@
 #    'sarah': 'c',
 #    'edward': 'rust',
 #    'phil': 'python',
-#    'elliot': 'python',
-#    'jamie': 'java',
-#    'jalen': 'c++'
+#    'alex': 'python',
+#    'morgan': 'java',
+#    'jordan': 'c++'
 #    }
 #for name in sorted(favorite_languages.keys()):
 #    print(f"{name.title()}, thank you for taking the poll.")

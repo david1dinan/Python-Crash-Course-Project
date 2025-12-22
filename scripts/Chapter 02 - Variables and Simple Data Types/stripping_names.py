@@ -1,5 +1,5 @@
-dad = "    elliot   "
-son = "   jalen   "
+dad = "    marcus   "
+son = "   tyler   "
 print(dad.strip(), son.strip())
 
-print("Elliot\t\nGreg\t\nSmith")
+print("Alex\t\nMorgan\t\nTaylor")

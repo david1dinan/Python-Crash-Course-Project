@@ -11,9 +11,9 @@ users = {
         'location': 'paris',
         'location_country': 'france',
         },
-    'econner': {
-        'first': 'elliot',
-        'last': 'conner',
+    'rparker': {
+        'first': 'riley',
+        'last': 'parker',
         'location': 'jersey',
         'location_state': 'jersey',
     }

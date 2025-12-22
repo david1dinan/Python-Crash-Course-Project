@@ -8,7 +8,7 @@ favorite_languages = {
     'jerry': 'rust'
     }
 
-names = ['jen', 'tim', 'steve', 'elliot']
+names = ['jen', 'tim', 'steve', 'marcus']
 
 for name in names:
     if name in favorite_languages.keys():

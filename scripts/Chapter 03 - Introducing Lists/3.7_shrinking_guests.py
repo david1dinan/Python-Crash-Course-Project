@@ -13,7 +13,7 @@ print(f'Dear {list[0].title()}, {list[1].title()}, and {list[2].title()} we have
 #Add new guests
 list.insert(0, 'aaron judge')
 list.insert(2, 'jay z')
-list.append('elliot conner')
+list.append('riley parker')
 print(f'{list[0].title()}, you are invited to dinner.\n')
 print(f'{list[1].title()}, you are invited to dinner.\n')
 print(f'{list[2].title()}, you are invited to dinner.\n')
