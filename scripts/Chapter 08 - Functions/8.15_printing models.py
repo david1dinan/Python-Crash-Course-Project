@@ -8,4 +8,4 @@ completed_models = []
 current_design = unprinted_designs.pop()
 completed_models.append(current_design)
 
-printing_models.show_completed_models( completed_models)
+printing_models.show_completed_models(completed_models)
