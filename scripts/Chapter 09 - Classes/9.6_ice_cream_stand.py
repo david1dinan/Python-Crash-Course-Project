@@ -1,7 +1,9 @@
 import string
 
+
 class Restaurant:
     """Create a Restaurant class."""
+
     def __init__(self, name, cuisine_type, number_served):
         """Initialize the Restaurant class."""
         self.name = name
@@ -32,25 +34,29 @@ my_restaurant = Restaurant("e's lounge", 'soul food', number_served=0)
 chilis = Restaurant('chilis', 'american/texmex', number_served=0)
 restaurant = Restaurant('smokies', 'bbq', number_served=0)
 
+
 class IceCreamStand(Restaurant):
     """Create an Ice Cream Stand class."""
 
     def __init__(self, name, cuisine_type, number_served, flavors):
         """Initialize the IceCreamStand class."""
         super().__init__(name, cuisine_type, number_served)
-
-
+        self.flavors = flavors
 
     def describe_flavors(self):
         """Describe the flavor of Ice Cream sold."""
-        flavors = ['chocolate', 'vanilla', 'strawberry', 'peach', 'butter pecan']
-        print(f"\nWe sell the following flavors of ice cream: {flavors}")
+        print(f"\nWe sell the following flavors of ice cream: {self.flavors}")
 
 
-my_stand = IceCreamStand('epc ice cream', 'ice cream', number_served=0, flavors = [])
+my_stand = IceCreamStand(
+    'epc ice cream',
+    'ice cream',
+    number_served=0,
+    flavors=['chocolate', 'vanilla', 'strawberry', 'peach', 'butter pecan']
+)
+
 my_stand.describe_restaurant()
 my_stand.open_restaurant()
 my_stand.set_number_served(50)
 my_stand.increment_number_served(44)
 my_stand.describe_flavors()
-
